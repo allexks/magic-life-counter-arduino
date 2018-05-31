@@ -148,13 +148,7 @@ void buttonAction(int buttonPin) {
 }
 
 void initializeScore() {
-  // at the time of the first call each player
-  // gets a life total of 20
-  // then with each call of the function life totals alternate
-  // between 20 and 30
-  player1 = player2 = 20 + ((int)isBrawl)*10;
-
-  isBrawl = !isBrawl;
+  player1 = player2 = 20;
 }
 
 
