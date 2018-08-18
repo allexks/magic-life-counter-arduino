@@ -148,7 +148,8 @@ void buttonAction(int buttonPin) {
 }
 
 void initializeScore() {
-  player1 = player2 = 20;
+  player1 = player2 = 20 + ((int)isBrawl) * 5;
+  isBrawl = !isBrawl;
 }
 
 
