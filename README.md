@@ -1,2 +1,2 @@
 # Magic: the Gathering Life Counter for Arduino
-Needed equipment: Adafruit OLED display and 4 buttons
+Equipment Needed: Adafruit OLED display and 4 buttons
